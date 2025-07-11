@@ -28,7 +28,7 @@ tracing = "0.1"
 ffi = { package = "soon-mdbx-sys", path = "./mdbx-sys" }
 
 [target.'cfg(not(windows))'.dependencies]
-libffi = "3.2.0"
+libffi = "4"
 
 [features]
 default = []
